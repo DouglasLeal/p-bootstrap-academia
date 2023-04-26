@@ -52,7 +52,6 @@ navLinks.forEach(link => {
 function smoothScroll(target) {
     let targetElement = document.querySelector(`${target.href.split("/")[3]}`);
     let targetPosition = targetElement.offsetTop;
-    console.log(targetElement.offsetTop)
     let startPosition = window.pageYOffset;
     let distance = targetPosition - startPosition;
     let duration = 1000;
