@@ -143,4 +143,34 @@ header .conteudo .conteudo-texto {
   margin: 15px 0;
 }
 
+.atividades {
+  padding: 75px 0;
+}
+.atividades h2 {
+  font-family: "Bruno Ace", cursive;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.atividades .atividade-item {
+  position: relative;
+}
+.atividades .atividade-item img {
+  width: 100%;
+  border-radius: 15px;
+}
+.atividades .atividade-item p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 255, 42, 0.75);
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Bruno Ace", cursive;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
 /*# sourceMappingURL=style.css.map */
