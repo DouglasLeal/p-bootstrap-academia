@@ -1,0 +1,35 @@
+@use "variables.scss" as v;
+
+footer{
+    border-top: 3px solid v.$primary-color;
+    background-color: v.$secondary-color;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+
+    .copy{
+        font-size: 1.25rem;
+        span{
+            font-weight: 700;
+        }
+    }
+
+    .dev{
+        a{
+            color: #fff;
+            text-decoration: none;
+            width: 100%;
+            display: block;
+            padding: 5px;
+            font-size: 0.9rem;
+
+            span{
+                font-weight: 700;
+            }
+
+            &:hover span{
+                color: v.$primary-color;
+            }
+        }
+    }
+}

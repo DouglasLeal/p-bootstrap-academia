@@ -264,4 +264,32 @@ header .conteudo .conteudo-texto {
   border-color: #00ff2a;
 }
 
+footer {
+  border-top: 3px solid #00ff2a;
+  background-color: #232323;
+  color: #fff;
+  text-align: center;
+  padding: 25px;
+}
+footer .copy {
+  font-size: 1.25rem;
+}
+footer .copy span {
+  font-weight: 700;
+}
+footer .dev a {
+  color: #fff;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+  padding: 5px;
+  font-size: 0.9rem;
+}
+footer .dev a span {
+  font-weight: 700;
+}
+footer .dev a:hover span {
+  color: #00ff2a;
+}
+
 /*# sourceMappingURL=style.css.map */
