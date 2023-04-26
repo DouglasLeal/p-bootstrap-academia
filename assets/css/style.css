@@ -205,4 +205,63 @@ header .conteudo .conteudo-texto {
   color: #fff;
 }
 
+.contato {
+  padding-top: 75px;
+}
+.contato h2 {
+  font-family: "Bruno Ace", cursive;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.contato .contato-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 50px;
+}
+.contato .contato-item i {
+  font-size: 3rem;
+  color: #00ff2a;
+}
+.contato .contato-item p {
+  font-size: 1.5rem;
+}
+.contato form {
+  background-color: #232323;
+  padding: 75px 0;
+}
+.contato form h3 {
+  font-family: "Bruno Ace", cursive;
+  font-weight: 700;
+  font-size: 1.25rem;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #00ff2a;
+}
+.contato form .form-control {
+  border: 3px solid #00ff2a;
+  background-color: #232323;
+  color: #fff;
+}
+.contato form .form-control::placeholder {
+  color: #00ff2a;
+}
+.contato form .form-control:focus {
+  box-shadow: 0px 0px 5px 1px #00ff2a;
+}
+.contato form .btn-primary {
+  background-color: #00ff2a;
+  border-color: #00ff2a;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.contato form .btn-primary:active {
+  background-color: #00e626;
+  border-color: #00ff2a;
+}
+
 /*# sourceMappingURL=style.css.map */
