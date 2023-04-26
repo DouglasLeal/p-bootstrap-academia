@@ -112,7 +112,7 @@ header .conteudo {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 50px;
+  gap: 25px;
   padding: 25px;
 }
 header .conteudo img {
@@ -133,6 +133,14 @@ header .conteudo .conteudo-texto {
   header .conteudo .conteudo-texto {
     font-size: 2rem;
   }
+}
+.hero {
+  background-color: #00ff2a;
+  padding: 50px 0;
+  font-size: 1.25rem;
+}
+.hero p {
+  margin: 15px 0;
 }
 
 /*# sourceMappingURL=style.css.map */

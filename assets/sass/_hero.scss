@@ -1,0 +1,11 @@
+@use "variables.scss" as v;
+
+.hero{
+    background-color: v.$primary-color;
+    padding: 50px 0;
+    font-size: 1.25rem;
+
+    p{
+        margin: 15px 0;
+    }
+}
