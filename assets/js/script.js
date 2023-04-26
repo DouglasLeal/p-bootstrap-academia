@@ -38,3 +38,9 @@ function limparActive(){
         link.classList.remove("active");
     });
 }
+
+navLinks.forEach(link => {
+    link.onclick = () =>{
+        document.querySelector(".navbar-collapse").classList.remove("show");
+    }
+})
