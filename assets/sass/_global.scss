@@ -1,3 +1,6 @@
+@use "variables.scss" as v;
+
 p{
+    font-family: v.$text-font;
     margin: 0;
 }
