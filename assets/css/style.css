@@ -87,7 +87,7 @@ p {
     padding-top: 25px;
     padding-bottom: 25px;
     font-size: 1.25rem;
-    transition: transform 0.5s;
+    transition: transform 0.5s, color 0.5s;
   }
   .navbar .nav-link:hover {
     color: #00ff2a;
@@ -171,6 +171,38 @@ header .conteudo .conteudo-texto {
   font-family: "Bruno Ace", cursive;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+}
+
+.faq {
+  padding: 75px 0;
+  background-color: #232323;
+}
+.faq h2 {
+  font-family: "Bruno Ace", cursive;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #00ff2a;
+}
+.faq .accordion .accordion-item {
+  border: 1px solid #00ff2a;
+  background-color: #232323;
+}
+.faq .accordion .accordion-item .accordion-button {
+  color: #00ff2a;
+  background-color: #232323;
+}
+.faq .accordion .accordion-item .accordion-button:focus {
+  border-color: #00ff2a;
+  box-shadow: none;
+}
+.faq .accordion .accordion-item .accordion-button::after {
+  border-radius: 5px;
+  background-color: #00ff2a;
+}
+.faq .accordion .accordion-item .accordion-body {
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
