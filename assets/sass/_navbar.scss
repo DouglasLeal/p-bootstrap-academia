@@ -2,9 +2,11 @@
 
 .navbar{
     background-color: v.$secondary-color !important;
-    border-top: 1px solid v.$primary-color;;
     border-bottom: 3px solid v.$primary-color;
-    padding: 25px;
+    padding: 0px;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
 
     .navbar-brand{
         img{

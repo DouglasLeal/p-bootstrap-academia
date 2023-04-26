@@ -8,6 +8,7 @@ p {
   background-color: #232323;
   color: #fff;
   padding: 15px;
+  border-bottom: 1px solid #00ff2a;
 }
 .info-topo i {
   color: #00ff2a;
@@ -45,9 +46,11 @@ p {
 }
 .navbar {
   background-color: #232323 !important;
-  border-top: 1px solid #00ff2a;
   border-bottom: 3px solid #00ff2a;
-  padding: 25px;
+  padding: 0px;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
 }
 .navbar .navbar-brand img {
   width: 75px;
@@ -144,7 +147,7 @@ header .conteudo .conteudo-texto {
 }
 
 .atividades {
-  padding: 75px 0;
+  padding: 100px 0;
 }
 .atividades h2 {
   font-family: "Bruno Ace", cursive;
@@ -174,7 +177,7 @@ header .conteudo .conteudo-texto {
 }
 
 .faq {
-  padding: 75px 0;
+  padding: 100px 0;
   background-color: #232323;
 }
 .faq h2 {
@@ -206,7 +209,7 @@ header .conteudo .conteudo-texto {
 }
 
 .contato {
-  padding-top: 75px;
+  padding-top: 100px;
 }
 .contato h2 {
   font-family: "Bruno Ace", cursive;
