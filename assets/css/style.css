@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Roboto+Slab:wght@400;700&display=swap");
 p {
   margin: 0;
 }
@@ -39,6 +40,57 @@ p {
   }
   .info-topo .whatsapp {
     justify-content: center;
+  }
+}
+.navbar {
+  background-color: #232323 !important;
+  border-top: 1px solid #00ff2a;
+  border-bottom: 3px solid #00ff2a;
+  padding: 25px;
+}
+.navbar .navbar-brand img {
+  width: 75px;
+}
+.navbar .navbar-toggler {
+  border: 3px solid #00ff2a;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.navbar .navbar-toggler span {
+  display: block;
+  background-color: #00ff2a;
+  height: 3px;
+  width: 50%;
+}
+.navbar .nav-link {
+  color: #fff;
+  text-align: center;
+  font-family: "Bruno Ace", cursive;
+  font-size: 1rem;
+}
+.navbar .nav-link.active {
+  color: #00ff2a;
+}
+
+@media screen and (min-width: 992px) {
+  .navbar .navbar-toggler {
+    display: none;
+  }
+  .navbar .nav-link {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 1.25rem;
+    transition: transform 0.5s;
+  }
+  .navbar .nav-link:hover {
+    color: #00ff2a;
+    transform: translateY(-10px);
   }
 }
 

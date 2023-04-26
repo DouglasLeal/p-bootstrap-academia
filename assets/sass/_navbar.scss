@@ -1,0 +1,64 @@
+@use "variables.scss" as v;
+
+.navbar{
+    background-color: v.$secondary-color !important;
+    border-top: 1px solid v.$primary-color;;
+    border-bottom: 3px solid v.$primary-color;
+    padding: 25px;
+
+    .navbar-brand{
+        img{
+            width: 75px;
+        }
+    }
+
+    .navbar-toggler {
+        border: 3px solid v.$primary-color;
+        width: 50px;
+        height: 50px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+
+        span {
+            display: block;
+            background-color: v.$primary-color;
+            height: 3px;
+            width: 50%;
+        }
+    }
+
+    .nav-link{
+        color: #fff;
+        text-align: center;
+        font-family: v.$title-font;
+        font-size: 1rem;
+    }
+
+    .nav-link.active{
+        color: v.$primary-color;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .navbar{
+        .navbar-toggler {
+            display: none;
+            
+        }
+
+        .nav-link{
+            padding-top: 25px;
+            padding-bottom: 25px;
+            font-size: 1.25rem;
+            transition: transform .5s;
+            &:hover{
+                color: v.$primary-color;
+                transform: translateY(-10px);
+            }
+        }
+    }    
+}
