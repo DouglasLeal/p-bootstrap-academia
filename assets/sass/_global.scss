@@ -1,5 +1,9 @@
 @use "variables.scss" as v;
 
+html{
+    scroll-behavior: smooth;
+}
+
 p{
     font-family: v.$text-font;
     margin: 0;

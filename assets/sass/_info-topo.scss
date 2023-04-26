@@ -10,6 +10,10 @@
         color: v.$primary-color;
         font-size: 30px;
     }
+
+    p{
+        font-size: .75rem;
+    }
     
     .horario{
         display: flex;
@@ -38,6 +42,10 @@
 
 @media screen and (min-width: 992px) {
     .info-topo{
+        p{
+            font-size: 1rem;
+        }
+
         .horario{
             margin-bottom: 0;
         }
